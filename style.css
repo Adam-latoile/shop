@@ -1,0 +1,60 @@
+/* importation de la police 'Poppins' de Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600;700;900&display=swap');
+
+html,
+body{
+    background-color: grey;
+}
+ header{
+display: flex;
+justify-content: space-between;
+ align-items: center;   
+ padding: 1rem 3rem;
+ background-color: yellow;
+ box-shadow: 0 4px 10px #000
+
+ }  
+
+.logo {
+gap: 5px;
+display: flex;
+font-size: 1.8rem;
+font-weight: 600;
+color: black;
+flex-direction: row-reverse;
+align-items: center;
+}
+ nav a{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 5px;
+     background-color: grey;
+     color: rgb(0, 0, 0);}
+    
+  a:hover {
+      color: rgb(46, 41, 41); 
+  }
+  
+  h1{ display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+   } 
+  
+ul{ display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  text-decoration: none;  
+  } 
+   
+img .shoes{
+    height: 30%; 
+     width:auto;
+       
+}
+
+
+
